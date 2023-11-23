@@ -30,6 +30,20 @@ Checkout here: [React App (my-card-app.netlify.app)](https://my-card-app.netlify
 
 You can check for filters or debug if needed after uncommenting console statements which I have written on cardList.js file inside src folder.
 
+#### You can try out these filters:
+
+1. Type
+
+​		Subscription or Burner
+
+2. Cardholder
+
+   Here I have provided two cardholders select any of them.
+
+   ##### Try with only Type, only cardholder or both filters to see different results you can try search also with these filters.
+
+   
+
 
 
 
