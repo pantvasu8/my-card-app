@@ -1,0 +1,73 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  color: white;
+  cursor: pointer;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.filter-button {
+  background-color: grey;
+  color: darkgray;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-icon {
+  font-size: 20px;
+}
+
+.search-and-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+
+}
+
+.search-block {
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+}
+
+.search-symbol {
+  margin-left: 8px;
+}
+
+

@@ -1,0 +1,144 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.symbol {
+    font-size: 20px;
+}
+
+.budget {
+    color: #888;
+    margin-top: 8px;
+}
+
+.dot {
+    margin: 0 4px;
+}
+
+.amount-frequency-expiry {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #888;
+    margin-top: 8px;
+}
+
+.status {
+    position: relative;
+    margin-top: 15px;
+}
+
+.status-item {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.green,
+.pink {
+    position: relative;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+.pink {
+    background-color: #e91e63;
+}
+
+.status-label {
+    margin-right: 4px;
+    color: #888;
+}
+
+.status-value {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #393939;
+}
+
+.line-graph-container {
+    position: relative;
+}
+
+.horizontal-line {
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    color: rgb(180, 178, 178);
+    font-size: small;
+    padding: 5px;
+}
+
+.label {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.budget {
+    display: flex;
+    align-items: center;
+}
+
+.amount-frequency-expiry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    align-items: left;
+}
+
+.amount,
+.frequency,
+.expiry {
+    font-weight: 600;
+    text-align: center;
+    color: rgb(49, 48, 48);
+    flex-grow: 1;
+}
+
+.line-graph {
+    margin-top: 10px;
+    position: relative;
+    height: 6px;
+    background-color: #eee;
+}
+
+.line-segment {
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+.pink {
+    background-color: #e91e63;
+}
