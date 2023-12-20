@@ -2,6 +2,8 @@
 
 This project was initially created with [Create React App](https://github.com/facebook/create-react-app) and afterwards modifications were made as per the requirement.
 
+Checkout live here: [React App (my-card-app.netlify.app)](https://my-card-app.netlify.app/)
+
 ## Local Development
 
 To run this app on your local computer:
@@ -25,8 +27,6 @@ To run this app on your local computer:
 I have deployed this app using this command in netlify.
 
 ### `npm run build`
-
-Checkout here: [React App (my-card-app.netlify.app)](https://my-card-app.netlify.app/)
 
 You can check for filters or debug if needed after uncommenting console statements which I have written on cardList.js file inside src folder.
 
